@@ -42,7 +42,7 @@ unsigned long ultimaTrocaCorAutomatica = 0;
 boolean trocaAutomatica = 1; //Se voce mudar para 0 (zero), ira desligar a troca automatica de cores.
 const char* host      = "Nodezin"; //Nome que seu ESP8266 (ou NodeMCU) tera na rede
 const char* ssid      = "VIVOFIBRA-EB6C"; //Nome da rede wifi da sua casa
-const char* password  = "lukezinho"; //Senha da rede wifi da sua casa
+const char* password  = "senha"; //Senha da rede wifi da sua casa
 int RGB[3];
 int cnt = 0;
 int tempoTrocaCor = 50; //Velicidade que as cores trocam automaticamente
